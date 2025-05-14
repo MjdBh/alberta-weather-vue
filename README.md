@@ -1,6 +1,6 @@
 # Alberta Weather Vue App
 
-This is a Vue.js conversion of the original Alberta Weather React app. The application displays weather information for cities in Alberta, Canada.
+This is a Vue.js conversion of the original Alberta Weather React app. The application displays weather information for cities in Alberta, Canada. It has been migrated from Webpack to Vite for improved performance and developer experience.
 
 ## Project Setup
 
@@ -10,7 +10,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
@@ -18,9 +18,9 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Preview the production build
 ```
-npm run lint
+npm run preview
 ```
 
 ## Features
@@ -33,3 +33,12 @@ npm run lint
 ## Implementation Details
 
 The application uses Vue 3 with TypeScript and Composition API. It maintains the same functionality and look and feel as the original React version but leverages Vue's reactive system and component structure.
+
+## Vite Configuration
+
+This project uses Vite instead of Webpack for faster development and build times. Key benefits:
+
+- Instant server start
+- Lightning-fast hot module replacement (HMR)
+- Optimized builds
+- Less configuration needed
