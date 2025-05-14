@@ -7,7 +7,7 @@
       <CityList />
     </main>
     <footer>
-      <p>Created for Junior Vue Developer Interview</p>
+      <p>Created for UI Developer Interview</p>
     </footer>
   </div>
 </template>
