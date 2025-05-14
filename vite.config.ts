@@ -12,6 +12,7 @@ export default defineConfig({
   },
   server: {
     port: 8080,
-    host: true  // Allow connections from all hosts
+    host: true,  // Allow connections from all hosts
+    allowedHosts: true
   }
 })
